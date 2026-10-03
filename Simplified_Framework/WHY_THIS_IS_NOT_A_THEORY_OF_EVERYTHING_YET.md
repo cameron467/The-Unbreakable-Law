@@ -111,17 +111,6 @@ flowchart TB
     class A1 assumed;
     class O1,O2,O3,O4,O5,O6 open;
 ```
-
-## How to read the diagram
-
-| Colour | Meaning |
-|---|---|
-| **Green** | Established science |
-| **Blue** | Things any deeper theory must reconstruct |
-| **Purple** | The current Parent / Hamiltonian picture |
-| **Yellow** | Things currently assumed or imported |
-| **Grey** | Open problems |
-
 ## The problem in one sentence
 
 The project knows a lot about the **behaviour that must be recovered**, but not yet the **deeper mechanism that produces it**.
