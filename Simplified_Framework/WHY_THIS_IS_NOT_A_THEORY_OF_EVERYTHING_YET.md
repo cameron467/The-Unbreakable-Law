@@ -33,8 +33,6 @@ This diagram shows the **research method being used now**.
 
 It does **not** show the historical order in which the project developed, and it does **not** claim that nature itself is split into two separate halves.
 
-### Colour guide
-
 ```mermaid
 flowchart LR
 
@@ -49,11 +47,11 @@ flowchart LR
     C ~~~ D
     D ~~~ E
 
-    classDef start fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
-    classDef work fill:#30363d,stroke:#8b949e,color:#ffffff;
-    classDef freeze fill:#8957e5,stroke:#8957e5,color:#ffffff;
-    classDef firewall fill:#b62324,stroke:#b62324,color:#ffffff;
-    classDef result fill:#2ea043,stroke:#2ea043,color:#ffffff;
+    classDef start fill:#1f6feb,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef work fill:#30363d,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef freeze fill:#8957e5,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef firewall fill:#b62324,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef result fill:#2ea043,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
 
     class A start;
     class B work;
@@ -173,8 +171,6 @@ Dashed arrows mean:
 
 > **this connection still has to be shown.**
 
-### Colour guide
-
 ```mermaid
 flowchart LR
 
@@ -185,9 +181,9 @@ flowchart LR
     A ~~~ B
     B ~~~ C
 
-    classDef hypothesis fill:#8957e5,stroke:#8957e5,color:#ffffff;
-    classDef open fill:#30363d,stroke:#8b949e,color:#ffffff;
-    classDef final fill:#b62324,stroke:#b62324,color:#ffffff;
+    classDef hypothesis fill:#8957e5,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef open fill:#30363d,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef final fill:#b62324,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
 
     class A hypothesis;
     class B open;
@@ -246,8 +242,6 @@ The following gates are a **checklist of things that would still need to work**.
 
 They are not the history of the project, and they do not imply that each stage already exists.
 
-### Colour guide
-
 ```mermaid
 flowchart LR
 
@@ -258,9 +252,9 @@ flowchart LR
     A ~~~ B
     B ~~~ C
 
-    classDef start fill:#8957e5,stroke:#8957e5,color:#ffffff;
-    classDef open fill:#30363d,stroke:#8b949e,color:#ffffff;
-    classDef final fill:#b62324,stroke:#b62324,color:#ffffff;
+    classDef start fill:#8957e5,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef open fill:#30363d,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef final fill:#b62324,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
 
     class A start;
     class B open;
@@ -417,8 +411,6 @@ This matters because the project must remain willing to discover that **its own 
 
 A particularly important future milestone would look like this:
 
-### Colour guide
-
 ```mermaid
 flowchart LR
 
@@ -429,9 +421,9 @@ flowchart LR
     A ~~~ B
     B ~~~ C
 
-    classDef frozen fill:#8957e5,stroke:#8957e5,color:#ffffff;
-    classDef test fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
-    classDef audit fill:#2ea043,stroke:#2ea043,color:#ffffff;
+    classDef frozen fill:#8957e5,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef test fill:#1f6feb,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef audit fill:#2ea043,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
 
     class A frozen;
     class B test;
@@ -497,8 +489,6 @@ The following have **not** been established:
 
 A result should not silently jump from "we saw something interesting" to "we discovered a fact about nature."
 
-### Colour guide
-
 ```mermaid
 flowchart LR
 
@@ -509,9 +499,9 @@ flowchart LR
     A ~~~ B
     B ~~~ C
 
-    classDef observed fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
-    classDef uncertain fill:#30363d,stroke:#8b949e,color:#ffffff;
-    classDef promoted fill:#2ea043,stroke:#2ea043,color:#ffffff;
+    classDef observed fill:#1f6feb,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef uncertain fill:#30363d,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef promoted fill:#2ea043,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
 
     class A observed;
     class B uncertain;
