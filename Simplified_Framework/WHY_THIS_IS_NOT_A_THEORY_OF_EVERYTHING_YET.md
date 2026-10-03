@@ -84,6 +84,17 @@ flowchart TB
     class I firewall;
     class J,K result;
 ```
+### Diagram colour guide
+
+| Colour | Meaning |
+|---|---|
+| Blue | Active research |
+| Purple | Frozen before comparison |
+| Grey | Open or unresolved |
+| Yellow | Partial or conditional |
+| Green | Passed / reproduced |
+| Red | Failed / incompatible |
+| Orange | Firewall / research safeguard |
 
 ### Bottom-up direction
 
