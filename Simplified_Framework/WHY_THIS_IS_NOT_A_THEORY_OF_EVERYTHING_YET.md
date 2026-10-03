@@ -70,11 +70,6 @@ flowchart LR
     F --> J["Blind collision"]
     J --> K["Result"]
 
-    classDef build fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
-    classDef freeze fill:#8957e5,stroke:#8957e5,color:#ffffff;
-    classDef firewall fill:#b62324,stroke:#b62324,color:#ffffff;
-    classDef result fill:#30363d,stroke:#8b949e,color:#ffffff;
-
     class A,B,C,G,H build;
     class D,I freeze;
     class F firewall;
