@@ -33,9 +33,7 @@ This diagram shows the **research method being used now**.
 
 It does **not** show the historical order in which the project developed, and it does **not** claim that nature itself is split into two separate halves.
 
-
-```
-### Diagram-Specific Colour guide
+### Colour guide
 
 ```mermaid
 flowchart LR
@@ -43,7 +41,7 @@ flowchart LR
     A["Starting direction"]
     B["Work in progress"]
     C["Frozen before comparison"]
-    D["Firewall / separation rule"]
+    D["Firewall"]
     E["Comparison / outcome"]
 
     A ~~~ B
@@ -63,7 +61,6 @@ flowchart LR
     class D firewall;
     class E result;
 ```
-
 
 ```mermaid
 flowchart TB
@@ -115,7 +112,7 @@ flowchart TB
     class D,H freeze;
     class I firewall;
     class J,K result;
-
+```
 
 ### Bottom-up direction
 
@@ -176,6 +173,27 @@ Dashed arrows mean:
 
 > **this connection still has to be shown.**
 
+### Colour guide
+
+```mermaid
+flowchart LR
+
+    A["Hypothesis / starting idea"]
+    B["Open / not established"]
+    C["Possible final closure"]
+
+    A ~~~ B
+    B ~~~ C
+
+    classDef hypothesis fill:#8957e5,stroke:#8957e5,color:#ffffff;
+    classDef open fill:#30363d,stroke:#8b949e,color:#ffffff;
+    classDef final fill:#b62324,stroke:#b62324,color:#ffffff;
+
+    class A hypothesis;
+    class B open;
+    class C final;
+```
+
 ```mermaid
 flowchart TB
 
@@ -227,6 +245,27 @@ Even if the first comparison goes well, the project would still be a long way fr
 The following gates are a **checklist of things that would still need to work**.
 
 They are not the history of the project, and they do not imply that each stage already exists.
+
+### Colour guide
+
+```mermaid
+flowchart LR
+
+    A["Starting comparison"]
+    B["Open gate"]
+    C["Possible full closure"]
+
+    A ~~~ B
+    B ~~~ C
+
+    classDef start fill:#8957e5,stroke:#8957e5,color:#ffffff;
+    classDef open fill:#30363d,stroke:#8b949e,color:#ffffff;
+    classDef final fill:#b62324,stroke:#b62324,color:#ffffff;
+
+    class A start;
+    class B open;
+    class C final;
+```
 
 ```mermaid
 flowchart TB
@@ -378,6 +417,27 @@ This matters because the project must remain willing to discover that **its own 
 
 A particularly important future milestone would look like this:
 
+### Colour guide
+
+```mermaid
+flowchart LR
+
+    A["Frozen"]
+    B["Testing / comparison"]
+    C["Independent reproduction"]
+
+    A ~~~ B
+    B ~~~ C
+
+    classDef frozen fill:#8957e5,stroke:#8957e5,color:#ffffff;
+    classDef test fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
+    classDef audit fill:#2ea043,stroke:#2ea043,color:#ffffff;
+
+    class A frozen;
+    class B test;
+    class C audit;
+```
+
 ```mermaid
 flowchart TB
 
@@ -436,6 +496,27 @@ The following have **not** been established:
 ## How the project should be read
 
 A result should not silently jump from "we saw something interesting" to "we discovered a fact about nature."
+
+### Colour guide
+
+```mermaid
+flowchart LR
+
+    A["Observed result"]
+    B["Interpretation / testing"]
+    C["Possible promotion"]
+
+    A ~~~ B
+    B ~~~ C
+
+    classDef observed fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
+    classDef uncertain fill:#30363d,stroke:#8b949e,color:#ffffff;
+    classDef promoted fill:#2ea043,stroke:#2ea043,color:#ffffff;
+
+    class A observed;
+    class B uncertain;
+    class C promoted;
+```
 
 ```mermaid
 flowchart TB
