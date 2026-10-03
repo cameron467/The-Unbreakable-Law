@@ -4,59 +4,59 @@
 - **Status:** Plain-English project boundary
 - **Last updated:** 3 October 2026
 
-This page explains what **The Unbreakable Method** is currently doing, what remains unproven, and how the project is trying to prevent itself from manufacturing the answer it hopes to find.
+This page explains what **The Unbreakable Method** is trying to do, what is still missing, and how the project tries to avoid fooling itself.
 
-> The project has a serious question, candidate mathematical machinery, a growing failure record and increasingly hard tests. It does **not** yet have a demonstrated final theory of nature.
+> The project has a serious question, some promising mathematical machinery, a growing record of failures, and increasingly hard tests. It does **not** yet have a demonstrated final theory of nature.
 
 ## What the project is trying to do
 
-Modern physics contains two extraordinarily successful descriptions of reality:
+Modern physics has two extraordinarily successful descriptions of reality:
 
 - **quantum physics**, which describes the small-scale world;
-- **General Relativity**, which describes gravity and spacetime extremely well in its tested regime.
+- **General Relativity**, which describes gravity and spacetime extremely well in the situations where it has been tested.
 
-The project asks whether both could arise from something deeper.
+The project asks whether both could come from something deeper.
 
 That possible deeper rule structure is called **The Unbreakable Law**.
 
-The research programme trying to find or falsify it is **The Unbreakable Method**.
+The research programme trying to find or rule out such a structure is **The Unbreakable Method**.
 
-The aim is not simply to build something that looks quantum and something else that looks gravitational.
+The aim is not simply to build one thing that looks quantum and another thing that looks gravitational.
 
-A serious result would need to show that both can arise from the same deeper framework **without either side being designed using the answer from the other**.
+A serious result would need to show that both come from the same deeper framework **without secretly designing either side to match the other**.
 
-## The current testing strategy
+## How the project is testing this
 
-The project is now approaching part of the problem from two independent directions.
+The project is currently attacking the problem from two directions.
 
-This diagram shows the **current research procedure**.
+This diagram shows the **research method being used now**.
 
-It does **not** show the historical order in which the project developed, and it does **not** claim that nature itself is divided into two separate sides.
+It does **not** show the historical order in which the project developed, and it does **not** claim that nature itself is split into two separate halves.
 
 ```mermaid
 flowchart TB
 
-    A["BOTTOM-UP CONSTRUCTION<br/>Start with a candidate deeper rule"]
+    A["BUILD FROM THE BOTTOM UP<br/>Start with a possible deeper rule"]
 
-    B["Candidate Parent<br/>Proposed microscopic dynamics"]
+    B["Candidate deeper model"]
 
-    C["Derived observable behaviour<br/>What can actually be prepared,<br/>changed and measured?"]
+    C["Work out what the model<br/>actually lets us observe and test"]
 
-    D["Frozen response package<br/>No geometry interpretation added"]
+    D["Freeze that result<br/>Do not add space or gravity afterwards"]
 
-    E["TOP-DOWN RECOGNITION<br/>Start with structures already understood"]
+    E["CHECK FROM THE TOP DOWN<br/>Start with things we already understand"]
 
-    F["Known examples and impostors<br/>different dimensions, anisotropy,<br/>fractals, compactifications and fakes"]
+    F["Real examples and convincing fakes<br/>Systems chosen to test whether<br/>our test can be fooled"]
 
-    G["Build a geometry-recognition test<br/>What distinguishes genuine structure<br/>from convincing lookalikes?"]
+    G["Build an independent test<br/>for whether something really<br/>behaves like space"]
 
-    H["Frozen decoder<br/>No knowledge of the Parent result"]
+    H["Freeze that test<br/>Before seeing the candidate result"]
 
-    I["DUAL-FREEZE FIREWALL<br/>Both sides fixed before comparison"]
+    I["FIREWALL<br/>Both sides are fixed first"]
 
-    J["COLLISION TEST<br/>Does the unknown Parent response<br/>pass the independent decoder?"]
+    J["CONTROLLED COMPARISON<br/>Does the candidate result pass<br/>the independent test?"]
 
-    K["Outcome<br/>match, mismatch or unresolved"]
+    K["Outcome<br/>match, mismatch or still unclear"]
 
     A --> B
     B --> C
@@ -85,90 +85,86 @@ flowchart TB
     class J,K result;
 ```
 
-### Bottom-up construction
+### Bottom-up direction
 
-The bottom-up direction asks:
+This side asks:
 
-> If we begin with a possible deeper rule, what observable behaviour follows from it without inserting space, geometry or gravity by hand?
-
-The direction is:
-
-```text
-candidate deeper rule
-→ physical behaviour
-→ frozen response
-```
-
-The current HAM / Parent programme belongs mainly on this side.
-
-### Top-down recognition
-
-The top-down direction asks:
-
-> Given examples of geometry and non-geometry that we already understand, can we build a test that recognises the relevant structure without being fooled by systems that merely look similar?
+> If we start with a possible deeper rule, what behaviour actually follows from it?
 
 The direction is:
 
 ```text
-known geometry + known impostors
-→ calibrated recognition test
-→ frozen decoder
+possible deeper rule
+→ candidate model
+→ observable behaviour
+→ freeze the result
 ```
 
-The operational-geometry programme belongs mainly on this side.
+The model is not allowed to borrow the answer from the space/gravity test.
+
+### Top-down direction
+
+This side asks:
+
+> Can we build a trustworthy test for space-like behaviour using examples we already understand, including examples designed to fool us?
+
+The direction is:
+
+```text
+known examples + convincing fakes
+→ build the test
+→ prove the test is hard to fool
+→ freeze the test
+```
+
+The test is not allowed to be changed after seeing what the candidate model produced.
 
 ### The firewall
 
-Only after both directions are frozen are they allowed to meet.
+The **firewall** is the rule that keeps those two directions apart until both are fixed.
 
-The bottom-up side should not be told:
+In plain English:
 
-> "This is the response shape that will make the geometry test happy."
+- the candidate model should not know what answer the test wants;
+- the test should not know what answer the candidate model gives.
 
-The top-down side should not be told:
+Only then are they compared.
 
-> "This is what the Parent produced, so adjust the decoder until it passes."
-
-That separation is the **dual-freeze firewall**.
-
-It is a research control, not a physical claim.
-
-Its purpose is to make future agreement more meaningful.
+The firewall is a **research safeguard**, not a claim about nature.
 
 ## What the project is ultimately testing
 
 The next diagram is different.
 
-It does **not** show what has already been derived.
+It does **not** show what has already been proved.
 
-It shows the broad scientific hypothesis the project is testing.
+It shows the broad idea the project is testing.
 
-The dashed arrows mean:
+Dashed arrows mean:
 
-> **this connection would need to be demonstrated.**
-
-They do not mean that the project has already established the connection.
+> **this connection still has to be shown.**
 
 ```mermaid
 flowchart TB
 
-    A["Hypothesised deeper rule structure<br/>The Unbreakable Law"]
+    A["Possible deeper rule structure<br/>The Unbreakable Law"]
 
     B["Quantum behaviour"]
-    C["Operational / geometric behaviour"]
 
-    D["Subsystems, composition,<br/>entanglement and quantum probabilities"]
+    C["Space, time and gravity-like behaviour"]
 
-    E["Locality, effective geometry,<br/>causal spacetime and gravity"]
+    D["Quantum states, relationships<br/>and non-classical effects"]
 
-    F["Overlap regime<br/>quantum behaviour and geometry<br/>valid at the same time"]
+    E["Space, time, cause-and-effect<br/>and gravity"]
 
-    G["Correct interaction between<br/>the quantum and gravitational descriptions"]
+    F["Overlap region<br/>Quantum behaviour and spacetime<br/>both make sense at once"]
+
+    G["Correct interaction between<br/>quantum physics and gravity"]
 
     H["Possible full closure"]
 
-    A -. "to be derived" .-> B
-    A -. "to be derived" .-> C
+    A -. "needs proof" .-> B
+    A -. "needs proof" .-> C
 
     B -.-> D
     C -.-> E
@@ -188,38 +184,38 @@ flowchart TB
     class H final;
 ```
 
-Nothing in this diagram should be read as established.
+Nothing in that diagram should be read as already established.
 
-The scientific question is whether The Unbreakable Method can eventually turn any of those dashed arrows into independently supported derivations.
+The question is whether The Unbreakable Method can eventually turn any of those dashed arrows into real, independently checked results.
 
 ## The testing gates
 
-The following gates are a **validation checklist**.
+Even if the first comparison goes well, the project would still be a long way from a final theory.
 
-They are not the historical sequence of the project, and they are not a claim that each stage already exists.
+The following gates are a **checklist of things that would still need to work**.
 
-Passing one gate does not automatically imply the next.
+They are not the history of the project, and they do not imply that each stage already exists.
 
 ```mermaid
 flowchart TB
 
-    A["Frozen Parent response<br/>meets frozen decoder"]
+    A["Candidate result<br/>meets independent test"]
 
-    B["Gate 1<br/>Physical response"]
+    B["Gate 1<br/>Does the model produce<br/>clear, testable behaviour?"]
 
-    C["Gate 2<br/>Genuine geometry"]
+    C["Gate 2<br/>Does it really behave like space?"]
 
-    D["Gate 3<br/>Continuum behaviour"]
+    D["Gate 3<br/>Does that still work as<br/>the model gets larger?"]
 
-    E["Gate 4<br/>Lorentzian causal spacetime"]
+    E["Gate 4<br/>Does it behave like<br/>relativistic spacetime?"]
 
-    F["Gate 5<br/>Gravity / GR limit"]
+    F["Gate 5<br/>Does it recover gravity / GR<br/>where GR is known to work?"]
 
-    G["Gate 6<br/>Universal matter coupling"]
+    G["Gate 6<br/>Do different kinds of matter<br/>experience the same spacetime?"]
 
-    H["Gate 7<br/>Quantum + geometry overlap"]
+    H["Gate 7<br/>Can quantum behaviour and<br/>spacetime exist at the same time?"]
 
-    I["Gate 8<br/>Correct coupling between them"]
+    I["Gate 8<br/>Do quantum physics and gravity<br/>affect each other correctly?"]
 
     J["Possible full-closure candidate"]
 
@@ -242,49 +238,47 @@ flowchart TB
     class J final;
 ```
 
-### Gate 1 — Physical response
+### Gate 1 — Clear, testable behaviour
 
-Can the Parent produce a meaningful operational response without geometry being inserted into the measurement procedure?
+Does the candidate model produce something that can actually be measured or compared, rather than something we have to interpret however we like?
 
-### Gate 2 — Genuine geometry
+### Gate 2 — Does it really behave like space?
 
-Does that response behave like real geometry rather than one of the many known false positives?
+Can the model produce space-like behaviour that survives tests designed to catch convincing fakes?
 
-### Gate 3 — Continuum behaviour
+### Gate 3 — Does it still work as the model gets larger?
 
-Does the geometric behaviour survive changing scale and system size in the way required for a meaningful continuum description?
+A small toy model can look impressive by accident.
 
-### Gate 4 — Lorentzian causal spacetime
+The behaviour has to remain meaningful as the model grows and as we compare different scales.
 
-Does the effective geometry acquire the causal structure required for relativistic spacetime?
+### Gate 4 — Does it behave like relativistic spacetime?
 
-A smooth spatial geometry is not enough.
+Even if something looks like ordinary space, that is not enough.
 
-### Gate 5 — Gravity / GR limit
+It must eventually reproduce the way space and time fit together in relativity.
 
-Does the effective spacetime reproduce General Relativity in the regime where GR is experimentally successful?
+### Gate 5 — Does it recover gravity?
 
-Geometry alone is not gravity.
+If the model is supposed to underlie gravity, it must reproduce General Relativity in the situations where General Relativity is already known to work.
 
-### Gate 6 — Universal matter coupling
+### Gate 6 — Does all matter experience the same spacetime?
 
-Do different matter or probe sectors see the same effective geometry and causal structure?
+A good gravity theory cannot work only for one specially chosen type of test object.
 
-A metric seen by only one specially chosen probe would not be enough.
+Different kinds of matter should agree on the same effective spacetime where established physics says they should.
 
-### Gate 7 — Quantum + geometry overlap
+### Gate 7 — Can quantum behaviour and spacetime coexist?
 
-Can genuine quantum behaviour still exist while the effective geometry is meaningful?
+The project must allow a region where quantum effects are still real while spacetime also makes sense.
 
-This includes questions involving noncommutativity, entanglement and the quantum-to-classical transition.
+That matters for things such as entanglement and the transition toward ordinary classical behaviour.
 
-### Gate 8 — Correct coupling
+### Gate 8 — Do quantum physics and gravity interact correctly?
 
-Do the quantum and gravitational descriptions interact in the correct physical way?
+Having a quantum branch and a gravity branch separately would still not be enough.
 
-Having both branches separately is not enough.
-
-They eventually have to meet.
+They have to affect one another in the right way.
 
 ## Where the project currently stands
 
@@ -292,75 +286,81 @@ The project is much closer to the beginning of this programme than the end.
 
 | Stage | Current status |
 |---|---|
-| Serious microscopic Parent search | **Active** |
-| HAM3 | **Serious candidate, not accepted Parent #2** |
-| Quantum mathematical structure | **Present in HAM3** |
-| Derived operational interface | **Partial / open** |
-| Frozen real Parent response package | **Not yet completed** |
-| Geometry decoder architecture | **Developed and heavily audited** |
-| Geometry decoder validated on a serious Parent #2 | **No** |
-| Emergent continuum geometry | **Not established** |
-| Lorentzian spacetime | **Not established** |
-| GR / gravitational dynamics | **Not established** |
-| Universal matter coupling | **Not established** |
-| Parent-derived physical subsystem structure | **Not established** |
-| Entanglement between Parent-derived subsystems | **Not established** |
-| Quantum–geometry overlap | **Allowed by the architecture; not demonstrated** |
+| Search for a serious deeper model | **Active** |
+| Current quantum candidate model (HAM3) | **Serious candidate, not accepted as the answer** |
+| Quantum mathematical structure | **Present in the current candidate** |
+| What the model actually lets us observe and test | **Partly worked out; still open** |
+| Frozen real candidate result for comparison | **Not yet completed** |
+| Independent test for space-like behaviour | **Developed and heavily challenged** |
+| That test proven on a serious candidate model | **No** |
+| Large-scale space emerging from the model | **Not established** |
+| Relativistic spacetime | **Not established** |
+| Gravity / General Relativity | **Not established** |
+| Different kinds of matter agreeing on the same spacetime | **Not established** |
+| Meaningful subsystems produced by the model itself | **Not established** |
+| Entanglement between those model-produced subsystems | **Not established** |
+| Quantum behaviour and spacetime shown together | **Possible in the design; not demonstrated** |
 | Full closure | **Not reached** |
 
 ## Why the tests are deliberately difficult
 
-Earlier versions of the project produced encouraging geometry-like signals.
+Earlier versions of the project produced results that looked encouraging.
 
-Those signals were then attacked with deliberately misleading systems.
+Then the project built deliberately misleading examples to see whether the tests could be fooled.
 
-Some of the apparently strong diagnostics failed.
+Some of the tests failed.
 
 That changed the project.
 
-> **A test does not become trustworthy because the candidate passes it. The test itself must first survive known positives, known negatives and strong false positives.**
+> **A test does not become trustworthy because our favourite model passes it. The test itself has to prove that it can tell good examples from convincing fakes.**
 
-This is why the project maintains:
+This is why the project keeps:
 
-- hostile audits;
-- negative-result records;
-- false-positive and adversarial controls;
-- frozen test definitions;
-- provenance records;
-- information-controlled comparisons;
-- separate exploratory and confirmatory lineages.
+- hostile reviews;
+- records of failed ideas;
+- deliberately misleading test cases;
+- frozen tests;
+- records of where ideas came from;
+- controlled comparisons;
+- a clear difference between exploration and confirmation.
 
-A failed test is not necessarily wasted work.
+A failed test is not wasted work.
 
-It tells us that the test was measuring less than we originally thought.
+It tells us that the test knew less than we thought it did.
 
 ## What happens when a gate fails
 
-A failed gate does not always mean the Parent is dead.
+A failed gate does not always mean the candidate model is dead.
 
-There are three broad outcomes.
+There are three broad possibilities.
 
 | Result | Meaning |
 |---|---|
-| **Incompatible with established physics** | The candidate contradicts strong external evidence in the regime being claimed |
-| **Unresolved mismatch** | Parent and project decoder disagree, but it is not yet clear which side is responsible |
-| **Compatible so far** | The candidate survives the current test without being declared correct |
+| **Conflicts with established physics** | The model disagrees with strong real-world evidence in a situation where that evidence applies |
+| **Still unclear** | The model and the project test disagree, but we do not yet know which side is wrong |
+| **Compatible so far** | The model survives the current test, without being declared correct |
 
-This distinction matters because the project must remain willing to discover that **its own measuring instrument was wrong**.
+This matters because the project must remain willing to discover that **its own test was wrong**.
 
 ## What would count as serious progress
 
-A particularly important future milestone would look like:
+A particularly important future milestone would look like this:
 
 ```mermaid
 flowchart TB
 
-    A["Parent frozen"]
-    B["Operational interface derived"]
-    C["Response frozen"]
-    D["Decoder independently frozen"]
-    E["Blind / controlled comparison"]
-    F["Strong adversarial controls passed"]
+    A["Candidate model frozen"]
+
+    B["Work out what it really predicts"]
+
+    C["Candidate result frozen"]
+
+    D["Independent test frozen"]
+
+    E["Controlled comparison"]
+
+    F["Strong fake examples also defeated"]
+
     G["Independent reproduction"]
 
     A --> B
@@ -381,39 +381,44 @@ flowchart TB
     class G audit;
 ```
 
-Even that would not automatically constitute a final theory.
+Even that would not automatically mean the project had found a final theory.
 
-It would mean the project had obtained a result worth taking much more seriously.
+It would mean the result deserved to be taken much more seriously.
 
 ## What we do not yet have
 
 The following have **not** been established:
 
-- a final Parent theory;
-- a validated Parent #2;
-- a complete derived operational interface;
-- a validated emergent continuum geometry;
-- Lorentzian spacetime;
-- General Relativity derived from the Parent;
-- universal matter–geometry coupling;
-- physically preferred subsystems derived from the Parent;
+- a final deeper model;
+- a confirmed Parent #2;
+- a complete account of what the candidate model lets us observe and test;
+- a demonstrated large-scale space emerging from the candidate;
+- relativistic spacetime emerging from the candidate;
+- General Relativity derived from the candidate;
+- all matter experiencing the same effective spacetime;
+- meaningful physical subsystems derived from the model itself;
 - entanglement demonstrated between those derived subsystems;
-- the correct quantum–gravity overlap;
+- the correct quantum-and-gravity overlap;
 - a demonstrated common deeper law.
 
 ## How the project should be read
 
-A result should not silently jump from observation to fact.
+A result should not silently jump from "we saw something interesting" to "we discovered a fact about nature."
 
 ```mermaid
 flowchart TB
 
     A["Result"]
-    B["Observation"]
-    C["Interpretation"]
-    D["Hostile testing"]
+
+    B["What was actually observed"]
+
+    C["What we think it might mean"]
+
+    D["Try hard to prove that interpretation wrong"]
+
     E["Independent reproduction"]
-    F["Possible promotion"]
+
+    F["Possible promotion to a stronger claim"]
 
     A --> B
     B --> C
@@ -430,16 +435,16 @@ flowchart TB
     class F promoted;
 ```
 
-The intermediate steps are part of the science.
+The steps in between are part of the science.
 
 A useful reading rule is:
 
-- reproduce the mathematics where possible;
-- treat numerical outputs as observations first;
-- distinguish observations from their interpretation;
-- keep candidate theories labelled as candidates;
+- trust mathematics where it can be reproduced;
+- treat computer results as observations first;
+- keep observations separate from what we think they mean;
+- keep candidate models labelled as candidates;
 - keep open questions open;
-- preserve failures rather than rewriting the history after success.
+- keep failed ideas in the record instead of hiding them.
 
 ## TL;DR
 
@@ -451,18 +456,18 @@ The Unbreakable Law is the possible deeper rule structure the project is testing
 
 Unbreakable simply implies that the unknown may reveal itself through logic, mathematics, information and perseverance.
 
-The project is currently attacking the problem from two directions.
+The project is attacking the problem from two directions.
 
-One direction starts with a candidate deeper rule and asks what physical behaviour actually follows from it.
+One direction starts with a possible deeper rule and asks what behaviour really follows from it.
 
-The other starts with known geometry and known impostors and tries to build an independent test capable of telling them apart.
+The other starts with things we already understand and builds an independent test designed to tell real space-like behaviour from convincing fakes.
 
-Those two directions are kept behind a dual-freeze firewall until both are fixed.
+The two are kept apart until both are fixed.
 
-Only then are they allowed to meet.
+Only then are they compared.
 
-Even a successful collision would still have to pass further gates: genuine geometry, continuum behaviour, causal spacetime, gravity, universal matter coupling, quantum–geometry overlap and correct interaction between the quantum and gravitational descriptions.
+Even if that comparison works, the project would still have to show large-scale space, relativistic spacetime, gravity, agreement across different kinds of matter, a quantum-and-spacetime overlap, and finally the correct interaction between quantum physics and gravity.
 
-Most of those gates remain open.
+Most of those steps remain open.
 
 That is why this is not a Theory of Everything yet.
