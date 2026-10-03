@@ -25,7 +25,7 @@ Where relevant, technical pages distinguish **ASSUMED / IMPORTED**, **DERIVED**,
 
 For the current scientific claim boundary, see [`Academic_Framework/Status/WHAT_IS_ACTUALLY_ESTABLISHED.md`](Academic_Framework/Status/WHAT_IS_ACTUALLY_ESTABLISHED.md).
 
-## TL;DR
+
 ## TL;DR
 
 The Unbreakable Method is the Project.
