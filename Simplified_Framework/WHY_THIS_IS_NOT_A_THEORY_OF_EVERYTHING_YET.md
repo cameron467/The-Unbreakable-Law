@@ -146,6 +146,184 @@ known examples + convincing fakes
 
 The test is not allowed to be changed after seeing what the candidate model produced.
 
+
+
+
+## What is known, what that tells us, and what is still unknown
+
+The project is **not starting from zero**.
+
+Quantum physics and General Relativity already tell us a great deal about how nature behaves.
+
+The open question is whether a deeper framework can reproduce those successful descriptions without assuming them at the beginning.
+
+The diagram below separates:
+
+1. what established physics already tells us;
+2. what those facts require any deeper theory to reconstruct;
+3. what The Unbreakable Method has built to investigate those requirements;
+4. what remains genuinely unresolved.
+
+```mermaid
+flowchart LR
+
+    A["Established knowledge"]
+    B["Required reconstruction"]
+    C["Project machinery"]
+    D["Still open"]
+
+    A ~~~ B
+    B ~~~ C
+    C ~~~ D
+
+    classDef known fill:#2ea043,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef target fill:#1f6feb,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef project fill:#8957e5,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef open fill:#30363d,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+
+    class A known;
+    class B target;
+    class C project;
+    class D open;
+```
+
+```mermaid
+flowchart TB
+
+    Q["ESTABLISHED KNOWLEDGE<br/>Quantum physics successfully describes<br/>many microscopic experiments"]
+
+    G["ESTABLISHED KNOWLEDGE<br/>General Relativity successfully describes<br/>gravity and spacetime in its tested regime"]
+
+    O["ESTABLISHED KNOWLEDGE<br/>There are situations where quantum systems<br/>and gravitational effects are both relevant"]
+
+    Q1["RECONSTRUCTION REQUIREMENT<br/>A deeper theory must recover<br/>the successful quantum predictions"]
+
+    G1["RECONSTRUCTION REQUIREMENT<br/>A deeper theory must recover<br/>relativistic spacetime and GR<br/>where they are known to work"]
+
+    O1["RECONSTRUCTION REQUIREMENT<br/>The quantum and gravity descriptions<br/>must eventually coexist consistently"]
+
+    T["THE UNBREAKABLE METHOD<br/>Build the deeper-model side and the<br/>recognition tests independently"]
+
+    T1["CURRENT PROJECT MACHINERY<br/>Candidate quantum models<br/>independent space-recognition tests<br/>firewalls, frozen comparisons and audits"]
+
+    U1["STILL OPEN<br/>What is the correct deeper rule?"]
+
+    U2["STILL OPEN<br/>How does space emerge from it?"]
+
+    U3["STILL OPEN<br/>How does relativistic spacetime<br/>and gravity emerge?"]
+
+    U4["STILL OPEN<br/>How are meaningful physical<br/>subsystems produced?"]
+
+    U5["STILL OPEN<br/>How do entanglement, spacetime<br/>and gravity fit together?"]
+
+    U6["STILL OPEN<br/>Does one framework actually<br/>close all of these gaps?"]
+
+    Q --> Q1
+    G --> G1
+    O --> O1
+
+    Q1 --> T
+    G1 --> T
+    O1 --> T
+
+    T --> T1
+
+    T1 --> U1
+    T1 --> U2
+    T1 --> U3
+    T1 --> U4
+    T1 --> U5
+
+    U1 --> U6
+    U2 --> U6
+    U3 --> U6
+    U4 --> U6
+    U5 --> U6
+
+    classDef known fill:#2ea043,stroke:#2ea043,color:#ffffff;
+    classDef target fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
+    classDef project fill:#8957e5,stroke:#8957e5,color:#ffffff;
+    classDef open fill:#30363d,stroke:#8b949e,color:#ffffff;
+
+    class Q,G,O known;
+    class Q1,G1,O1 target;
+    class T,T1 project;
+    class U1,U2,U3,U4,U5,U6 open;
+```
+
+### How to read this
+
+The **green boxes are not project discoveries**.
+
+They represent successful physics that already exists and that the project must respect.
+
+The **blue boxes are consequences of that knowledge**. They describe things a deeper theory would have to recover if it is supposed to underlie known physics.
+
+For example:
+
+> General Relativity works extremely well in its tested regime.
+
+Therefore:
+
+> any proposed deeper theory of gravity must eventually reproduce that successful behaviour in the same regime.
+
+That requirement does not tell us **how** the deeper theory does it.
+
+That is the unknown.
+
+The **purple boxes are the Method's current attempt to investigate the problem**. They include candidate deeper models, independent tests, frozen comparisons and hostile checks.
+
+The **grey boxes are the actual unsolved physics**.
+
+Those are not details waiting to be filled in after the main theory is complete.
+
+They are the main problem.
+
+### The key distinction
+
+Established physics gives us something extremely valuable:
+
+> **a description of what a successful deeper theory must eventually reproduce.**
+
+It does not automatically tell us:
+
+> **what the deeper theory is.**
+
+So the project can often determine the **destination** much more confidently than the **route**.
+
+That distinction is central to The Unbreakable Method.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### The firewall
 
 The **firewall** is the rule that keeps those two directions apart until both are fixed.
