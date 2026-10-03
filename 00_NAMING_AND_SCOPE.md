@@ -26,12 +26,12 @@ Where relevant, technical pages distinguish **ASSUMED / IMPORTED**, **DERIVED**,
 For the current scientific claim boundary, see [`Academic_Framework/Status/WHAT_IS_ACTUALLY_ESTABLISHED.md`](Academic_Framework/Status/WHAT_IS_ACTUALLY_ESTABLISHED.md).
 
 ## TL;DR
+## TL;DR
 
-**The Unbreakable Method** is the Project. 
+The Unbreakable Method is the Project.
 
-**The Unbreakable Law** is the possible deeper rule structure the project is testing for.
-
+The Unbreakable Law is the possible deeper rule structure the project is testing for.
 
 "Unbreakable" is not an assertion of validity.
 
-Unbreakable simply implies that the unknown can be known through logic and math, information and perseverance.
+Unbreakable simply implies that the unknown may reveal itself through logic, mathematics, information and perseverance.
