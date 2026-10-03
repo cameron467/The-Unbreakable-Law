@@ -27,5 +27,8 @@ For the current scientific claim boundary, see [`Academic_Framework/Status/WHAT_
 
 ## TL;DR
 
-**The Unbreakable Method** is the research programme. **The Unbreakable Law** is the possible deeper rule structure the programme is testing for.
-Unbreakable simply implies that the unknown can be explained through logic and math and information, it is NOT an assertion of truth within the un-reviewed document.
+**The Unbreakable Method** is the research programme. 
+**The Unbreakable Law** is the possible deeper rule structure the programme is testing for.
+
+Unbreakable simply implies that the unknown can be explained through logic and math, information and perserverance.
+It is NOT an assertion of truth within the document.
