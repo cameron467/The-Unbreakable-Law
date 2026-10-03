@@ -33,4 +33,4 @@ For the current scientific claim boundary, see [`Academic_Framework/Status/WHAT_
 
 Unbreakable simply implies that the unknown can be explained through logic and math, information and perserverance.
 
-"Unbreakable" IS NOT an assertion of validity.
+"Unbreakable" is not an assertion of validity.
