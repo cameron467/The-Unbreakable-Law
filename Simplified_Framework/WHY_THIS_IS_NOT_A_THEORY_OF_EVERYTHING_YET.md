@@ -1,754 +1,421 @@
-# Why This Is Not a Theory of Everything Yet
+# What Is Known, What Must Be Reconstructed, and What Is Still Open
 
 - **Layer:** Simplified Framework
-- **Status:** Plain-English project boundary
+- **Status:** Plain-English scientific map
 - **Last updated:** 3 October 2026
 
-This page explains what **The Unbreakable Method** is trying to do, what is still missing, and how the project tries to avoid fooling itself.
+This page shows the structure of the scientific problem as it currently stands.
 
-> The project has a serious question, some promising mathematical machinery, a growing record of failures, and increasingly hard tests. It does **not** yet have a demonstrated final theory of nature.
+The project is **not** starting from nothing.
 
-## What the project is trying to do
+Quantum physics and General Relativity already tell us a great deal about how nature behaves. The open question is whether both can arise from a deeper common source.
 
-Modern physics has two extraordinarily successful descriptions of reality:
+This page separates:
 
-- **quantum physics**, which describes the small-scale world;
-- **General Relativity**, which describes gravity and spacetime extremely well in the situations where it has been tested.
+- what established science already tells us;
+- what any deeper theory would have to reconstruct;
+- what the current Parent / Hamiltonian picture looks like;
+- what is currently assumed or imported;
+- what the mathematics appears to allow;
+- and what remains genuinely unresolved.
 
-The project asks whether both could come from something deeper.
-
-That possible deeper rule structure is called **The Unbreakable Law**.
-
-The research programme trying to find or rule out such a structure is **The Unbreakable Method**.
-
-The aim is not simply to build one thing that looks quantum and another thing that looks gravitational.
-
-A serious result would need to show that both come from the same deeper framework **without secretly designing either side to match the other**.
-
-## How the project is testing this
-
-The project is currently attacking the problem from two directions.
-
-This diagram shows the **research method being used now**.
-
-It does **not** show the historical order in which the project developed, and it does **not** claim that nature itself is split into two separate halves.
+## The overall picture
 
 ```mermaid
 flowchart LR
 
-    A["Starting direction"]
-    B["Work in progress"]
-    C["Frozen before comparison"]
-    D["Firewall"]
-    E["Comparison / outcome"]
+    A["Established science"]
+    B["Must be reconstructed"]
+    C["Current Parent picture"]
+    D["Assumed / imported"]
+    E["Open / not established"]
 
     A ~~~ B
     B ~~~ C
     C ~~~ D
     D ~~~ E
 
-    classDef start fill:#1f6feb,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-    classDef work fill:#30363d,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-    classDef freeze fill:#8957e5,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-    classDef firewall fill:#b62324,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-    classDef result fill:#2ea043,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-
-    class A start;
-    class B work;
-    class C freeze;
-    class D firewall;
-    class E result;
-```
-
-```mermaid
-flowchart TB
-
-    A["BUILD FROM THE BOTTOM UP<br/>Start with a possible deeper rule"]
-
-    B["Candidate deeper model"]
-
-    C["Work out what the model<br/>actually lets us observe and test"]
-
-    D["Freeze that result<br/>Do not add space or gravity afterwards"]
-
-    E["CHECK FROM THE TOP DOWN<br/>Start with things we already understand"]
-
-    F["Real examples and convincing fakes<br/>Systems chosen to test whether<br/>our test can be fooled"]
-
-    G["Build an independent test<br/>for whether something really<br/>behaves like space"]
-
-    H["Freeze that test<br/>Before seeing the candidate result"]
-
-    I["FIREWALL<br/>Both sides are fixed first"]
-
-    J["CONTROLLED COMPARISON<br/>Does the candidate result pass<br/>the independent test?"]
-
-    K["Outcome<br/>match, mismatch or still unclear"]
-
-    A --> B
-    B --> C
-    C --> D
-
-    E --> F
-    F --> G
-    G --> H
-
-    D --> I
-    H --> I
-
-    I --> J
-    J --> K
-
-    classDef start fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
-    classDef work fill:#30363d,stroke:#8b949e,color:#ffffff;
-    classDef freeze fill:#8957e5,stroke:#8957e5,color:#ffffff;
-    classDef firewall fill:#b62324,stroke:#b62324,color:#ffffff;
-    classDef result fill:#2ea043,stroke:#2ea043,color:#ffffff;
-
-    class A,E start;
-    class B,C,F,G work;
-    class D,H freeze;
-    class I firewall;
-    class J,K result;
-```
-
-### Bottom-up direction
-
-This side asks:
-
-> If we start with a possible deeper rule, what behaviour actually follows from it?
-
-The direction is:
-
-```text
-possible deeper rule
-→ candidate model
-→ observable behaviour
-→ freeze the result
-```
-
-The model is not allowed to borrow the answer from the space/gravity test.
-
-### Top-down direction
-
-This side asks:
-
-> Can we build a trustworthy test for space-like behaviour using examples we already understand, including examples designed to fool us?
-
-The direction is:
-
-```text
-known examples + convincing fakes
-→ build the test
-→ prove the test is hard to fool
-→ freeze the test
-```
-
-The test is not allowed to be changed after seeing what the candidate model produced.
-
-
-
-
-## What is known, what that tells us, and what is still unknown
-
-The project is **not starting from zero**.
-
-Quantum physics and General Relativity already tell us a great deal about how nature behaves.
-
-The open question is whether a deeper framework can reproduce those successful descriptions without assuming them at the beginning.
-
-The diagram below separates:
-
-1. what established physics already tells us;
-2. what those facts require any deeper theory to reconstruct;
-3. what The Unbreakable Method has built to investigate those requirements;
-4. what remains genuinely unresolved.
-
-```mermaid
-flowchart LR
-
-    A["Established knowledge"]
-    B["Required reconstruction"]
-    C["Project machinery"]
-    D["Still open"]
-
-    A ~~~ B
-    B ~~~ C
-    C ~~~ D
-
     classDef known fill:#2ea043,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-    classDef target fill:#1f6feb,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-    classDef project fill:#8957e5,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef required fill:#1f6feb,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef candidate fill:#8957e5,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+    classDef assumed fill:#bf8700,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
     classDef open fill:#30363d,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
 
     class A known;
-    class B target;
-    class C project;
-    class D open;
+    class B required;
+    class C candidate;
+    class D assumed;
+    class E open;
 ```
 
 ```mermaid
 flowchart TB
 
-    Q["ESTABLISHED KNOWLEDGE<br/>Quantum physics successfully describes<br/>many microscopic experiments"]
+    Q0["ESTABLISHED SCIENCE<br/>Quantum physics works"]
 
-    G["ESTABLISHED KNOWLEDGE<br/>General Relativity successfully describes<br/>gravity and spacetime in its tested regime"]
+    Q1["KNOWN QUANTUM FEATURES<br/>superposition<br/>interference<br/>noncommuting observables<br/>entanglement<br/>probabilities"]
 
-    O["ESTABLISHED KNOWLEDGE<br/>There are situations where quantum systems<br/>and gravitational effects are both relevant"]
+    Q2["MUST BE RECONSTRUCTED<br/>A deeper Parent must reproduce<br/>successful quantum behaviour"]
 
-    Q1["RECONSTRUCTION REQUIREMENT<br/>A deeper theory must recover<br/>the successful quantum predictions"]
+    Q3["QUANTUM-SIDE REQUIREMENTS<br/>state structure<br/>observable structure<br/>composition of systems<br/>dynamics<br/>physically meaningful subsystems"]
 
-    G1["RECONSTRUCTION REQUIREMENT<br/>A deeper theory must recover<br/>relativistic spacetime and GR<br/>where they are known to work"]
+    R0["ESTABLISHED SCIENCE<br/>Relativity / gravity works"]
 
-    O1["RECONSTRUCTION REQUIREMENT<br/>The quantum and gravity descriptions<br/>must eventually coexist consistently"]
+    R1["KNOWN RELATIVITY / GR FEATURES<br/>relativistic spacetime<br/>causal structure<br/>gravity as spacetime behaviour<br/>GR in its tested regime"]
 
-    T["THE UNBREAKABLE METHOD<br/>Build the deeper-model side and the<br/>recognition tests independently"]
+    R2["MUST BE RECONSTRUCTED<br/>A deeper Parent must reproduce<br/>successful spacetime / gravity behaviour"]
 
-    T1["CURRENT PROJECT MACHINERY<br/>Candidate quantum models<br/>independent space-recognition tests<br/>firewalls, frozen comparisons and audits"]
+    R3["RELATIVITY-SIDE REQUIREMENTS<br/>effective space<br/>causal spacetime<br/>gravity / GR limit<br/>same spacetime seen by matter"]
 
-    U1["STILL OPEN<br/>What is the correct deeper rule?"]
+    P0["CURRENT PARENT IDEA<br/>One deeper rule structure<br/>could underlie both forks"]
 
-    U2["STILL OPEN<br/>How does space emerge from it?"]
+    P1["CURRENT HAMILTONIAN ROUTE<br/>Search for a serious Parent candidate<br/>HAM programme<br/>HAM3 is a live candidate"]
 
-    U3["STILL OPEN<br/>How does relativistic spacetime<br/>and gravity emerge?"]
+    P2["WHAT THE PARENT SHOULD HAVE<br/>genuine quantum structure<br/>nontrivial interactions<br/>room for subsystem structure<br/>room for emergent geometry<br/>no hand-inserted spacetime answer"]
 
-    U4["STILL OPEN<br/>How are meaningful physical<br/>subsystems produced?"]
+    A1["ASSUMED / IMPORTED IN CURRENT CANDIDATES<br/>ordinary quantum formalism<br/>chosen carrier algebra<br/>some composition structure<br/>family label N"]
 
-    U5["STILL OPEN<br/>How do entanglement, spacetime<br/>and gravity fit together?"]
+    O1["OPEN<br/>correct final Parent"]
 
-    U6["STILL OPEN<br/>Does one framework actually<br/>close all of these gaps?"]
+    O2["OPEN<br/>derived physical subsystems"]
 
-    Q --> Q1
-    G --> G1
-    O --> O1
+    O3["OPEN<br/>entanglement from Parent-derived subsystems"]
 
-    Q1 --> T
-    G1 --> T
-    O1 --> T
+    O4["OPEN<br/>emergent space from Parent response"]
 
-    T --> T1
+    O5["OPEN<br/>relativistic spacetime and GR limit"]
 
-    T1 --> U1
-    T1 --> U2
-    T1 --> U3
-    T1 --> U4
-    T1 --> U5
+    O6["OPEN<br/>full quantum–gravity overlap"]
 
-    U1 --> U6
-    U2 --> U6
-    U3 --> U6
-    U4 --> U6
-    U5 --> U6
+    Q0 --> Q1
+    Q1 --> Q2
+    Q2 --> Q3
+
+    R0 --> R1
+    R1 --> R2
+    R2 --> R3
+
+    Q3 --> P0
+    R3 --> P0
+
+    P0 --> P1
+    P1 --> P2
+
+    P2 --> A1
+
+    P2 --> O1
+    P2 --> O2
+    P2 --> O3
+    P2 --> O4
+    P2 --> O5
+    P2 --> O6
 
     classDef known fill:#2ea043,stroke:#2ea043,color:#ffffff;
-    classDef target fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
-    classDef project fill:#8957e5,stroke:#8957e5,color:#ffffff;
+    classDef required fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
+    classDef candidate fill:#8957e5,stroke:#8957e5,color:#ffffff;
+    classDef assumed fill:#bf8700,stroke:#bf8700,color:#ffffff;
     classDef open fill:#30363d,stroke:#8b949e,color:#ffffff;
 
-    class Q,G,O known;
-    class Q1,G1,O1 target;
-    class T,T1 project;
-    class U1,U2,U3,U4,U5,U6 open;
+    class Q0,Q1,R0,R1 known;
+    class Q2,Q3,R2,R3 required;
+    class P0,P1,P2 candidate;
+    class A1 assumed;
+    class O1,O2,O3,O4,O5,O6 open;
 ```
 
-### How to read this
+## How to read the diagram
 
-The **green boxes are not project discoveries**.
+The **green boxes** are established science.
 
-They represent successful physics that already exists and that the project must respect.
+They are not project discoveries.
 
-The **blue boxes are consequences of that knowledge**. They describe things a deeper theory would have to recover if it is supposed to underlie known physics.
+They represent successful physics that any deeper theory would have to respect.
 
-For example:
+The **blue boxes** are reconstruction requirements.
 
-> General Relativity works extremely well in its tested regime.
+They describe things a deeper Parent would have to recover if it is supposed to underlie known physics.
 
-Therefore:
+The **purple boxes** show the current project picture.
 
-> any proposed deeper theory of gravity must eventually reproduce that successful behaviour in the same regime.
+The working idea is that there may be a deeper **Parent** structure capable of producing both branches. One route being tested is a Hamiltonian route.
 
-That requirement does not tell us **how** the deeper theory does it.
+At present, **HAM3 is a serious live candidate**, but it is not accepted as the final Parent.
 
-That is the unknown.
+The **yellow box** marks things that are currently assumed or imported rather than derived.
 
-The **purple boxes are the Method's current attempt to investigate the problem**. They include candidate deeper models, independent tests, frozen comparisons and hostile checks.
+The **grey boxes** are the major unsolved problems.
 
-The **grey boxes are the actual unsolved physics**.
+## The quantum side
 
-Those are not details waiting to be filled in after the main theory is complete.
+Quantum physics already gives us a large body of successful established knowledge.
 
-They are the main problem.
+Among the things a deeper theory must eventually account for are:
 
-### The key distinction
+- quantum states;
+- superposition;
+- interference;
+- noncommuting observables;
+- quantum probabilities;
+- composition of systems;
+- entanglement;
+- unitary dynamics in the regimes where ordinary quantum theory applies.
 
-Established physics gives us something extremely valuable:
+The project does not need to rediscover that these phenomena exist.
 
-> **a description of what a successful deeper theory must eventually reproduce.**
+It needs to determine whether a deeper Parent can reproduce them honestly.
 
-It does not automatically tell us:
+### What this means for the Parent
 
-> **what the deeper theory is.**
+A viable Parent must not accidentally exclude the structures required for quantum physics.
 
-So the project can often determine the **destination** much more confidently than the **route**.
+At minimum, it must be capable of supporting:
 
-That distinction is central to The Unbreakable Method.
+- a non-classical state structure;
+- nontrivial observables;
+- interactions;
+- composition;
+- meaningful subsystems;
+- nonseparable joint states once those subsystems are defined.
 
+The last two points are especially important.
 
+Entanglement is meaningful only after the theory has a physically meaningful way to distinguish subsystems.
 
+The project therefore cannot simply choose an arbitrary split and call the resulting correlations physically fundamental.
 
+## The relativity and gravity side
 
+General Relativity already tells us a great deal about the large-scale structure we need to recover.
 
+A deeper theory of gravity must eventually reproduce, in the regimes where they are known to work:
 
+- effective space and time;
+- relativistic causal structure;
+- the tested behaviour of General Relativity;
+- gravitational dynamics;
+- agreement between different kinds of matter about the same effective spacetime.
 
+The project does not yet know how the Parent produces these things.
 
+That is one of the central open problems.
 
+### Geometry is not enough
 
+Even if a candidate produces something that looks like ordinary space, the project is not finished.
 
+A successful chain would still have to reach:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### The firewall
-
-The **firewall** is the rule that keeps those two directions apart until both are fixed.
-
-In plain English:
-
-- the candidate model should not know what answer the test wants;
-- the test should not know what answer the candidate model gives.
-
-Only then are they compared.
-
-The firewall is a **research safeguard**, not a claim about nature.
-
-## What the project is ultimately testing
-
-The next diagram is different.
-
-It does **not** show what has already been proved.
-
-It shows the broad idea the project is testing.
-
-Dashed arrows mean:
-
-> **this connection still has to be shown.**
-
-```mermaid
-flowchart LR
-
-    A["Hypothesis / starting idea"]
-    B["Open / not established"]
-    C["Possible final closure"]
-
-    A ~~~ B
-    B ~~~ C
-
-    classDef hypothesis fill:#8957e5,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-    classDef open fill:#30363d,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-    classDef final fill:#b62324,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-
-    class A hypothesis;
-    class B open;
-    class C final;
+```text
+space-like behaviour
+→ relativistic spacetime
+→ gravity
+→ General Relativity in its tested regime
+→ agreement across different kinds of matter
 ```
 
-```mermaid
-flowchart TB
+Each step is a separate requirement.
 
-    A["Possible deeper rule structure<br/>The Unbreakable Law"]
+## What the current Parent picture looks like
 
-    B["Quantum behaviour"]
+The project currently suspects that a deeper Parent may exist which is capable of producing both branches.
 
-    C["Space, time and gravity-like behaviour"]
+That is a hypothesis, not a result.
 
-    D["Quantum states, relationships<br/>and non-classical effects"]
+One current route is the **Hamiltonian programme**.
 
-    E["Space, time, cause-and-effect<br/>and gravity"]
+The aim is to find a mathematically explicit candidate whose dynamics are rich enough to support the required physics without having space, geometry or the final answer inserted into it.
 
-    F["Overlap region<br/>Quantum behaviour and spacetime<br/>both make sense at once"]
+## The current Hamiltonian route
 
-    G["Correct interaction between<br/>quantum physics and gravity"]
+The current leading candidate in that programme is **HAM3**.
 
-    H["Possible full closure"]
+HAM3 is important because it already contains several nontrivial ingredients.
 
-    A -. "needs proof" .-> B
-    A -. "needs proof" .-> C
-
-    B -.-> D
-    C -.-> E
-
-    D -.-> F
-    E -.-> F
-
-    F -.-> G
-    G -.-> H
-
-    classDef hypothesis fill:#8957e5,stroke:#8957e5,color:#ffffff;
-    classDef open fill:#30363d,stroke:#8b949e,color:#ffffff;
-    classDef final fill:#b62324,stroke:#b62324,color:#ffffff;
-
-    class A hypothesis;
-    class B,C,D,E,F,G open;
-    class H final;
-```
-
-Nothing in that diagram should be read as already established.
-
-The question is whether The Unbreakable Method can eventually turn any of those dashed arrows into real, independently checked results.
-
-## The testing gates
-
-Even if the first comparison goes well, the project would still be a long way from a final theory.
-
-The following gates are a **checklist of things that would still need to work**.
-
-They are not the history of the project, and they do not imply that each stage already exists.
-
-```mermaid
-flowchart LR
-
-    A["Starting comparison"]
-    B["Open gate"]
-    C["Possible full closure"]
-
-    A ~~~ B
-    B ~~~ C
-
-    classDef start fill:#8957e5,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-    classDef open fill:#30363d,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-    classDef final fill:#b62324,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-
-    class A start;
-    class B open;
-    class C final;
-```
-
-```mermaid
-flowchart TB
-
-    A["Candidate result<br/>meets independent test"]
-
-    B["Gate 1<br/>Does the model produce<br/>clear, testable behaviour?"]
-
-    C["Gate 2<br/>Does it really behave like space?"]
-
-    D["Gate 3<br/>Does that still work as<br/>the model gets larger?"]
-
-    E["Gate 4<br/>Does it behave like<br/>relativistic spacetime?"]
-
-    F["Gate 5<br/>Does it recover gravity / GR<br/>where GR is known to work?"]
-
-    G["Gate 6<br/>Do different kinds of matter<br/>experience the same spacetime?"]
-
-    H["Gate 7<br/>Can quantum behaviour and<br/>spacetime exist at the same time?"]
-
-    I["Gate 8<br/>Do quantum physics and gravity<br/>affect each other correctly?"]
-
-    J["Possible full-closure candidate"]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-    H --> I
-    I --> J
-
-    classDef start fill:#8957e5,stroke:#8957e5,color:#ffffff;
-    classDef open fill:#30363d,stroke:#8b949e,color:#ffffff;
-    classDef final fill:#b62324,stroke:#b62324,color:#ffffff;
-
-    class A start;
-    class B,C,D,E,F,G,H,I open;
-    class J final;
-```
-
-### Gate 1 — Clear, testable behaviour
-
-Does the candidate model produce something that can actually be measured or compared, rather than something we have to interpret however we like?
-
-### Gate 2 — Does it really behave like space?
-
-Can the model produce space-like behaviour that survives tests designed to catch convincing fakes?
-
-### Gate 3 — Does it still work as the model gets larger?
-
-A small toy model can look impressive by accident.
-
-The behaviour has to remain meaningful as the model grows and as we compare different scales.
-
-### Gate 4 — Does it behave like relativistic spacetime?
-
-Even if something looks like ordinary space, that is not enough.
-
-It must eventually reproduce the way space and time fit together in relativity.
-
-### Gate 5 — Does it recover gravity?
-
-If the model is supposed to underlie gravity, it must reproduce General Relativity in the situations where General Relativity is already known to work.
-
-### Gate 6 — Does all matter experience the same spacetime?
-
-A good gravity theory cannot work only for one specially chosen type of test object.
-
-Different kinds of matter should agree on the same effective spacetime where established physics says they should.
-
-### Gate 7 — Can quantum behaviour and spacetime coexist?
-
-The project must allow a region where quantum effects are still real while spacetime also makes sense.
-
-That matters for things such as entanglement and the transition toward ordinary classical behaviour.
-
-### Gate 8 — Do quantum physics and gravity interact correctly?
-
-Having a quantum branch and a gravity branch separately would still not be enough.
-
-They have to affect one another in the right way.
-
-## Where the project currently stands
-
-The project is much closer to the beginning of this programme than the end.
-
-| Stage | Current status |
+| Property | Current status |
 |---|---|
-| Search for a serious deeper model | **Active** |
-| Current quantum candidate model (HAM3) | **Serious candidate, not accepted as the answer** |
-| Quantum mathematical structure | **Present in the current candidate** |
-| What the model actually lets us observe and test | **Partly worked out; still open** |
-| Frozen real candidate result for comparison | **Not yet completed** |
-| Independent test for space-like behaviour | **Developed and heavily challenged** |
-| That test proven on a serious candidate model | **No** |
-| Large-scale space emerging from the model | **Not established** |
-| Relativistic spacetime | **Not established** |
-| Gravity / General Relativity | **Not established** |
-| Different kinds of matter agreeing on the same spacetime | **Not established** |
-| Meaningful subsystems produced by the model itself | **Not established** |
-| Entanglement between those model-produced subsystems | **Not established** |
-| Quantum behaviour and spacetime shown together | **Possible in the design; not demonstrated** |
-| Full closure | **Not reached** |
+| Genuine quantum structure | **Present** |
+| Noncommuting observables | **Present** |
+| Unitary quantum dynamics | **Present** |
+| Nontrivial interaction structure | **Present** |
+| Explicit Hamiltonian | **Present** |
+| Serious Parent search programme | **Active** |
+| HAM3 as a live candidate | **Yes** |
+| Final accepted Parent #2 | **No** |
 
-## Why the tests are deliberately difficult
+HAM3 is therefore not an empty placeholder.
 
-Earlier versions of the project produced results that looked encouraging.
+It is a real mathematical candidate.
 
-Then the project built deliberately misleading examples to see whether the tests could be fooled.
+But it has not yet shown that it can generate the full structure required by the project.
 
-Some of the tests failed.
+## What the Parent still needs to provide
 
-That changed the project.
+The Parent must eventually do much more than simply be quantum.
 
-> **A test does not become trustworthy because our favourite model passes it. The test itself has to prove that it can tell good examples from convincing fakes.**
+| Required property | Why it matters | Status |
+|---|---|---|
+| Physically meaningful subsystem structure | Needed to define real parts, composition and entanglement | **Open** |
+| Entanglement between Parent-derived subsystems | Needed to reproduce genuine quantum relationships | **Open** |
+| A derived testable response | Needed so later tests examine what the Parent actually does | **Partial / open** |
+| Emergent space-like behaviour | Needed to go beyond pure quantum mechanics | **Open** |
+| Relativistic spacetime | Needed to connect to relativity | **Open** |
+| Gravity / GR limit | Needed to recover known gravity where it works | **Open** |
+| Common spacetime across matter sectors | Needed so geometry is not specific to one chosen probe | **Open** |
+| Quantum–gravity overlap | Needed so quantum behaviour and spacetime coexist | **Open** |
+| Correct interaction between both branches | Needed for genuine closure | **Open** |
+| Full closure from one Parent | Needed for the final project goal | **Open** |
 
-This is why the project keeps:
+## What is assumed or imported
 
-- hostile reviews;
-- records of failed ideas;
-- deliberately misleading test cases;
-- frozen tests;
-- records of where ideas came from;
-- controlled comparisons;
-- a clear difference between exploration and confirmation.
+A major part of the project is keeping track of what was put into the model and what genuinely came out.
 
-A failed test is not wasted work.
+Current candidates still import some important structure.
 
-It tells us that the test knew less than we thought it did.
+Examples include:
 
-## What happens when a gate fails
+- ordinary quantum formalism;
+- the chosen carrier algebra;
+- some composition structure;
+- the family label \(N\);
+- some measurement or operational assumptions.
 
-A failed gate does not always mean the candidate model is dead.
+These are not automatically flaws.
 
-There are three broad possibilities.
+A scientific model is allowed to begin with assumptions.
 
-| Result | Meaning |
-|---|---|
-| **Conflicts with established physics** | The model disagrees with strong real-world evidence in a situation where that evidence applies |
-| **Still unclear** | The model and the project test disagree, but we do not yet know which side is wrong |
-| **Compatible so far** | The model survives the current test, without being declared correct |
+The important rule is:
 
-This matters because the project must remain willing to discover that **its own test was wrong**.
+> **An imported ingredient must not later be described as though the Parent derived it.**
 
-## What would count as serious progress
+## What the algebra already appears to allow
 
-A particularly important future milestone would look like this:
+There is also a useful middle category between "assumed" and "fully derived."
 
-```mermaid
-flowchart LR
+Some structures appear to be **mathematically available** even though they have not yet been physically demonstrated.
 
-    A["Frozen"]
-    B["Testing / comparison"]
-    C["Independent reproduction"]
+Examples include:
 
-    A ~~~ B
-    B ~~~ C
+- room for a nontrivial subsystem structure;
+- room for entanglement if meaningful subsystems can be derived;
+- room for a geometric description to arise from suitable large-scale response;
+- room for quantum behaviour and geometry to coexist in the same regime.
 
-    classDef frozen fill:#8957e5,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-    classDef test fill:#1f6feb,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-    classDef audit fill:#2ea043,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+This matters because it tells us that the current mathematics has not obviously ruled these things out.
 
-    class A frozen;
-    class B test;
-    class C audit;
+But:
+
+> **mathematically available is not the same as physically derived.**
+
+## The subsystem clue
+
+One particularly interesting example concerns entanglement.
+
+The project already knows from standard mathematics that suitable operator structures can define real subsystem decompositions.
+
+That means the basic route:
+
+```text
+Parent
+→ physically meaningful subsystem structure
+→ interaction between those subsystems
+→ entangled joint state
 ```
 
-```mermaid
-flowchart TB
+is mathematically possible.
 
-    A["Candidate model frozen"]
+The unresolved step is whether the Parent itself naturally generates the required subsystem structure.
 
-    B["Work out what it really predicts"]
+Until that happens, the project has not derived entanglement in the stronger sense it is looking for.
 
-    C["Candidate result frozen"]
+## The geometry clue
 
-    D["Independent test frozen"]
+A similar distinction applies on the geometry side.
 
-    E["Controlled comparison"]
+The project has machinery for asking whether a physical response behaves like geometry.
 
-    F["Strong fake examples also defeated"]
+That does not mean the Parent has already produced geometry.
 
-    G["Independent reproduction"]
+The required chain is still:
 
-    A --> B
-    B --> C
-    C --> E
-
-    D --> E
-
-    E --> F
-    F --> G
-
-    classDef frozen fill:#8957e5,stroke:#8957e5,color:#ffffff;
-    classDef test fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
-    classDef audit fill:#2ea043,stroke:#2ea043,color:#ffffff;
-
-    class A,C,D frozen;
-    class B,E,F test;
-    class G audit;
+```text
+Parent dynamics
+→ real observable response
+→ independent geometry test
+→ space-like behaviour
+→ larger-scale consistency
+→ relativistic spacetime
+→ gravity
 ```
 
-Even that would not automatically mean the project had found a final theory.
+Most of that chain remains open.
 
-It would mean the result deserved to be taken much more seriously.
+## What is fully established by the project
 
-## What we do not yet have
+The strongest category would be something that is:
 
-The following have **not** been established:
+- derived from the declared assumptions;
+- physically interpretable without hidden target information;
+- robust against strong controls;
+- independently reproduced;
+- and consistent with known physics.
 
-- a final deeper model;
-- a confirmed Parent #2;
-- a complete account of what the candidate model lets us observe and test;
-- a demonstrated large-scale space emerging from the candidate;
-- relativistic spacetime emerging from the candidate;
-- General Relativity derived from the candidate;
-- all matter experiencing the same effective spacetime;
-- meaningful physical subsystems derived from the model itself;
-- entanglement demonstrated between those derived subsystems;
-- the correct quantum-and-gravity overlap;
-- a demonstrated common deeper law.
+The project has **not** reached that level for:
 
-## How the project should be read
+- emergent spacetime;
+- General Relativity from the Parent;
+- Parent-derived entanglement between physically meaningful subsystems;
+- full quantum–gravity closure;
+- The Unbreakable Law itself.
 
-A result should not silently jump from "we saw something interesting" to "we discovered a fact about nature."
+## What remains genuinely unknown
 
-```mermaid
-flowchart LR
+The major open questions are still large:
 
-    A["Observed result"]
-    B["Interpretation / testing"]
-    C["Possible promotion"]
+- What is the correct Parent?
+- Is a Hamiltonian description the correct route?
+- If so, what is the correct Hamiltonian?
+- How are physically meaningful subsystems generated?
+- How does entanglement arise between those subsystems?
+- How does space emerge?
+- How does relativistic spacetime emerge?
+- How does gravity emerge?
+- Why do different kinds of matter see the same effective spacetime?
+- How do the quantum and gravitational descriptions coexist?
+- How do they affect each other correctly?
+- Can all of these requirements arise from one deeper rule structure?
 
-    A ~~~ B
-    B ~~~ C
+## The key point
 
-    classDef observed fill:#1f6feb,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-    classDef uncertain fill:#30363d,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
-    classDef promoted fill:#2ea043,stroke:#d8dee4,stroke-width:2px,stroke-dasharray:6 4,color:#ffffff;
+The project already knows a great deal about the **destination**.
 
-    class A observed;
-    class B uncertain;
-    class C promoted;
-```
+That knowledge comes from established science.
 
-```mermaid
-flowchart TB
+Quantum physics tells us what successful microscopic behaviour must look like.
 
-    A["Result"]
+Relativity and gravity tell us what successful large-scale spacetime behaviour must look like.
 
-    B["What was actually observed"]
+What remains unknown is the **route** between them.
 
-    C["What we think it might mean"]
+The Parent is the proposed bridge.
 
-    D["Try hard to prove that interpretation wrong"]
+The Hamiltonian programme is one attempt to find it.
 
-    E["Independent reproduction"]
+The current candidate has some of the required ingredients.
 
-    F["Possible promotion to a stronger claim"]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-
-    classDef observed fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
-    classDef uncertain fill:#30363d,stroke:#8b949e,color:#ffffff;
-    classDef promoted fill:#2ea043,stroke:#2ea043,color:#ffffff;
-
-    class A,B observed;
-    class C,D,E uncertain;
-    class F promoted;
-```
-
-The steps in between are part of the science.
-
-A useful reading rule is:
-
-- trust mathematics where it can be reproduced;
-- treat computer results as observations first;
-- keep observations separate from what we think they mean;
-- keep candidate models labelled as candidates;
-- keep open questions open;
-- keep failed ideas in the record instead of hiding them.
+It does not yet have the complete answer.
 
 ## TL;DR
 
-The Unbreakable Method is the Project.
+Quantum physics and relativity are already established sciences.
 
-The Unbreakable Law is the possible deeper rule structure the project is testing for.
+That gives the project two strong branches of known behaviour that any deeper theory must eventually reproduce.
 
-"Unbreakable" is not an assertion of validity.
+The current project suspects that both may come from one deeper Parent and is testing explicit Hamiltonian candidates as one route toward that Parent.
 
-Unbreakable simply implies that the unknown may reveal itself through logic, mathematics, information and perseverance.
+HAM3 already contains genuine quantum structure, noncommuting observables and nontrivial interactions.
 
-The project is attacking the problem from two directions.
+But major requirements remain open: physically meaningful subsystems, entanglement between those subsystems, emergent space, relativistic spacetime, gravity, agreement across different kinds of matter, and the correct overlap between quantum physics and gravity.
 
-One direction starts with a possible deeper rule and asks what behaviour really follows from it.
+The project therefore knows much more about the **target behaviour** than it knows about the **deeper mechanism that produces it**.
 
-The other starts with things we already understand and builds an independent test designed to tell real space-like behaviour from convincing fakes.
-
-The two are kept apart until both are fixed.
-
-Only then are they compared.
-
-Even if that comparison works, the project would still have to show large-scale space, relativistic spacetime, gravity, agreement across different kinds of matter, a quantum-and-spacetime overlap, and finally the correct interaction between quantum physics and gravity.
-
-Most of those steps remain open.
-
-That is why this is not a Theory of Everything yet.
+That gap is the problem The Unbreakable Method is trying to solve.
