@@ -84,7 +84,7 @@ flowchart TB
     class I firewall;
     class J,K result;
 ```
-### Colour guide
+### Diagram-Specific Colour guide
 
 ```mermaid
 flowchart LR
