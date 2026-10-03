@@ -1,36 +1,23 @@
-## Where the project currently stands
+## What exists and what is still missing
 
 ```mermaid
-flowchart TD
-    A["Core question<br/>Can quantum physics and gravity/spacetime come from one deeper source?"]
+flowchart LR
+    A["Question<br/>One deeper source?"] --> B["Candidate Parent<br/>in progress"]
+    B --> C["Operational response<br/>not yet closed"]
+    C --> D["Geometry<br/>not yet established"]
+    D --> E["Spacetime<br/>not yet established"]
+    E --> F["GR / gravity<br/>not yet established"]
 
-    B["Microscopic candidate<br/>HAM3 / Parent search"]
-    C["Operational response<br/>derived honestly from the Parent"]
-    D["Geometry detection<br/>does the response behave like real geometry?"]
-    E["Emergent geometry"]
-    F["Lorentzian spacetime"]
-    G["GR / gravity limit"]
-    H["Quantum branch<br/>entanglement, composition, nonclassical structure"]
-    I["Quantum–geometry overlap"]
-    J["Full closure<br/>one deeper framework underlying both branches"]
+    B --> G["Quantum structure<br/>partly represented"]
+    G --> H["Quantum–geometry link<br/>open problem"]
+    F --> H
+    H --> I["Final theory claim<br/>not reached"]
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-
-    B --> H
-    H --> I
-    G --> I
-    I --> J
-
-    classDef done fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
     classDef progress fill:#2ea043,stroke:#2ea043,color:#ffffff;
     classDef open fill:#30363d,stroke:#8b949e,color:#ffffff;
+    classDef neutral fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
 
-    class B,H progress;
-    class C,D,I open;
-    class E,F,G,J open;
+    class A neutral;
+    class B,G progress;
+    class C,D,E,F,H,I open;
 ```
