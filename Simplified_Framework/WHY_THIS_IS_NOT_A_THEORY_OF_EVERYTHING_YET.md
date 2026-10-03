@@ -1,27 +1,27 @@
-# What Is Known, What Must Be Reconstructed, and What Is Still Open
+# What Is Known, What Must Be Rebuilt, and What Is Still Open
 
 - **Layer:** Simplified Framework
 - **Status:** Plain-English scientific map
 - **Last updated:** 3 October 2026
 
-This page shows the structure of the scientific problem in a compact way.
+## The problem
 
-The project is not starting from zero. It begins with two successful parts of modern physics:
+We already have two successful descriptions of nature:
 
-- **quantum physics**, which works extremely well for microscopic phenomena;
-- **relativity / gravity**, which work extremely well for spacetime and gravitation in their tested regime.
+- **Quantum physics** — works extremely well for microscopic phenomena.
+- **Relativity / gravity** — works extremely well for spacetime and gravitation in their tested regimes.
 
-The open question is whether both come from a deeper common source.
+The project asks whether both could come from **one deeper model**.
 
-## The overall picture
+## The overall map
 
 ```mermaid
 flowchart LR
 
     A["Established science"]
-    B["Must be reconstructed"]
-    C["Current Parent picture"]
-    D["Assumed / imported"]
+    B["Must be rebuilt"]
+    C["Current deeper-model picture"]
+    D["Put in at the start"]
     E["Open / not established"]
 
     A ~~~ B
@@ -45,47 +45,34 @@ flowchart LR
 ```mermaid
 flowchart TB
 
-    Q0["ESTABLISHED SCIENCE<br/>Quantum physics works"]
+    Q0["ESTABLISHED<br/>Quantum physics works"]
+    R0["ESTABLISHED<br/>Relativity / gravity works"]
 
-    Q1["KNOWN QUANTUM FEATURES<br/>superposition<br/>interference<br/>noncommuting observables<br/>entanglement<br/>probabilities"]
+    Q1["MUST BE REBUILT<br/>quantum states<br/>probabilities<br/>interference<br/>entanglement<br/>quantum dynamics"]
 
-    Q2["MUST BE RECONSTRUCTED<br/>A deeper Parent must reproduce<br/>successful quantum behaviour"]
+    R1["MUST BE REBUILT<br/>space and time<br/>relativistic cause and effect<br/>gravity<br/>General Relativity<br/>shared spacetime"]
 
-    Q3["QUANTUM-SIDE REQUIREMENTS<br/>state structure<br/>observable structure<br/>composition of systems<br/>dynamics<br/>physically meaningful subsystems"]
+    P0["CURRENT IDEA<br/>One deeper model may underlie both"]
 
-    R0["ESTABLISHED SCIENCE<br/>Relativity / gravity works"]
+    P1["CURRENT CANDIDATE SEARCH<br/>Build explicit mathematical models<br/>HAM3 is one live candidate"]
 
-    R1["KNOWN RELATIVITY / GR FEATURES<br/>relativistic spacetime<br/>causal structure<br/>gravity as spacetime behaviour<br/>GR in its tested regime"]
+    P2["A SUCCESSFUL MODEL NEEDS<br/>real quantum behaviour<br/>nontrivial interactions<br/>meaningful parts<br/>room for spacetime to emerge<br/>no hidden spacetime answer"]
 
-    R2["MUST BE RECONSTRUCTED<br/>A deeper Parent must reproduce<br/>successful spacetime / gravity behaviour"]
+    A1["PUT IN AT THE START<br/>ordinary quantum rules<br/>chosen mathematical ingredients<br/>some combination rules<br/>model-size label"]
 
-    R3["RELATIVITY-SIDE REQUIREMENTS<br/>effective space<br/>causal spacetime<br/>gravity / GR limit<br/>same spacetime seen by matter"]
-
-    P0["CURRENT PARENT IDEA<br/>One deeper rule structure<br/>could underlie both forks"]
-
-    P1["CURRENT HAMILTONIAN ROUTE<br/>Search for a serious Parent candidate<br/>HAM programme<br/>HAM3 is a live candidate"]
-
-    P2["WHAT THE PARENT SHOULD HAVE<br/>genuine quantum structure<br/>nontrivial interactions<br/>room for subsystem structure<br/>room for emergent geometry<br/>no hand-inserted spacetime answer"]
-
-    A1["ASSUMED / IMPORTED IN CURRENT CANDIDATES<br/>ordinary quantum formalism<br/>chosen carrier algebra<br/>some composition structure<br/>family label N"]
-
-    O1["OPEN<br/>correct final Parent"]
-    O2["OPEN<br/>derived physical subsystems"]
-    O3["OPEN<br/>entanglement from Parent-derived subsystems"]
-    O4["OPEN<br/>emergent space from Parent response"]
-    O5["OPEN<br/>relativistic spacetime and GR limit"]
-    O6["OPEN<br/>full quantum–gravity overlap"]
+    O1["OPEN<br/>correct deeper model"]
+    O2["OPEN<br/>meaningful physical parts"]
+    O3["OPEN<br/>entanglement between those parts"]
+    O4["OPEN<br/>emergent space"]
+    O5["OPEN<br/>relativistic spacetime"]
+    O6["OPEN<br/>gravity / GR"]
+    O7["OPEN<br/>full quantum + gravity closure"]
 
     Q0 --> Q1
-    Q1 --> Q2
-    Q2 --> Q3
-
     R0 --> R1
-    R1 --> R2
-    R2 --> R3
 
-    Q3 --> P0
-    R3 --> P0
+    Q1 --> P0
+    R1 --> P0
 
     P0 --> P1
     P1 --> P2
@@ -98,6 +85,7 @@ flowchart TB
     P2 --> O4
     P2 --> O5
     P2 --> O6
+    P2 --> O7
 
     classDef known fill:#2ea043,stroke:#2ea043,color:#ffffff;
     classDef required fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
@@ -105,154 +93,171 @@ flowchart TB
     classDef assumed fill:#bf8700,stroke:#bf8700,color:#ffffff;
     classDef open fill:#30363d,stroke:#8b949e,color:#ffffff;
 
-    class Q0,Q1,R0,R1 known;
-    class Q2,Q3,R2,R3 required;
+    class Q0,R0 known;
+    class Q1,R1 required;
     class P0,P1,P2 candidate;
     class A1 assumed;
-    class O1,O2,O3,O4,O5,O6 open;
+    class O1,O2,O3,O4,O5,O6,O7 open;
 ```
-## The problem in one sentence
 
-The project knows a lot about the **behaviour that must be recovered**, but not yet the **deeper mechanism that produces it**.
+## What we already know
 
-## The two known branches
+### Quantum physics
 
-### Quantum branch
+Established science already shows:
 
-Established science already tells us that a successful deeper theory must eventually account for:
-
-- quantum states;
 - superposition;
 - interference;
-- noncommuting observables;
 - quantum probabilities;
-- composition of systems;
 - entanglement;
-- the successful quantum dynamics already seen in experiment.
+- non-classical measurement behaviour;
+- successful quantum dynamics.
 
-### Relativity / gravity branch
+### Relativity / gravity
 
-Established science already tells us that a successful deeper theory must eventually account for:
+Established science already shows:
 
-- effective space and time;
-- relativistic causal structure;
-- gravitational behaviour;
-- General Relativity in the regime where it already works;
-- agreement across different kinds of matter about the same effective spacetime.
+- space and time form spacetime;
+- cause and effect obey relativistic limits;
+- gravity is tied to spacetime;
+- General Relativity works extremely well in its tested regime;
+- different kinds of matter agree on the same effective spacetime to very high accuracy.
 
-## What both branches demand from a deeper Parent
+## What a deeper model must rebuild
 
-A deeper Parent would need to support both kinds of reconstruction.
+```mermaid
+flowchart LR
 
-| Requirement | Why it matters | Status |
-|---|---|---|
-| Quantum structure | Needed to recover known microscopic physics | **Partly present in current candidate route** |
-| Composition / subsystem structure | Needed to define real parts and entanglement | **Open** |
-| Testable response | Needed so later checks examine what the Parent actually does | **Partial / open** |
-| Emergent space-like behaviour | Needed to connect to the geometry side | **Open** |
-| Relativistic spacetime | Needed to reach relativity rather than only ordinary space | **Open** |
-| Gravity / GR limit | Needed to recover known gravity | **Open** |
-| Probe-independence | Needed so spacetime is not specific to one chosen sector | **Open** |
-| Quantum–gravity overlap | Needed so both branches can coexist in one framework | **Open** |
-| Full closure | Needed for the final project goal | **Open** |
+    Q["Quantum side"]
+    P["Deeper model"]
+    G["Spacetime / gravity side"]
 
-## The current Parent / Hamiltonian picture
+    Q --> P
+    G --> P
 
-The project is testing the possibility that one deeper Parent might underlie both branches.
+    P --> Q2["Recover quantum behaviour"]
+    P --> G2["Recover spacetime and gravity"]
 
-One live route toward that Parent is the **Hamiltonian programme**.
+    classDef side fill:#2ea043,stroke:#2ea043,color:#ffffff;
+    classDef parent fill:#8957e5,stroke:#8957e5,color:#ffffff;
+    classDef target fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
 
-The current leading live candidate in that route is **HAM3**.
+    class Q,G side;
+    class P parent;
+    class Q2,G2 target;
+```
 
-### What the current route already has
+A successful deeper model must eventually recover both sides.
 
-| Property | Current status |
+| Quantum side | Spacetime / gravity side |
 |---|---|
-| Genuine quantum structure | **Present** |
-| Noncommuting observables | **Present** |
-| Unitary quantum dynamics | **Present** |
-| Nontrivial interaction structure | **Present** |
-| Explicit Hamiltonian | **Present** |
-| Serious Parent search programme | **Active** |
-| HAM3 as a live candidate | **Yes** |
-| Final accepted Parent #2 | **No** |
+| quantum states | effective space and time |
+| quantum probabilities | relativistic cause and effect |
+| interactions | gravity |
+| composition of systems | General Relativity where tested |
+| entanglement | common spacetime for matter |
 
-So HAM3 is not an empty placeholder. It is a real mathematical candidate.
+## What the current candidate route already has
 
-## What is currently assumed or imported
+The technical project calls the proposed deeper structure the **Parent**.
 
-The current route still begins with some ingredients rather than deriving them.
+One live candidate is **HAM3**.
 
-Examples include:
+You do not need the technical details here. For this page, HAM3 is simply:
 
-- ordinary quantum formalism;
-- the chosen carrier algebra;
-- some composition structure;
-- the family label \(N\);
-- some measurement / operational assumptions.
+> **one explicit quantum model being tested as a possible deeper starting point.**
 
-That is not automatically bad.
-
-The important rule is simply:
-
-> **What is imported should not later be described as though it was derived.**
-
-## What seems algebraically available
-
-There is a middle category between “pure assumption” and “fully derived result”.
-
-Some things appear to be **mathematically available in principle**, even though they are not yet physically demonstrated.
-
-| Algebraically available possibility | Current status |
+| Property | Status |
 |---|---|
-| Nontrivial subsystem structure may be possible | **Possible in principle** |
-| Entanglement may be possible if meaningful subsystems are derived | **Possible in principle** |
-| A geometry-like description may arise from suitable large-scale response | **Possible in principle** |
-| Quantum behaviour and geometry may coexist in one regime | **Possible in principle** |
+| Genuine quantum description | **Present** |
+| Non-classical observables | **Present** |
+| Quantum evolution | **Present** |
+| Nontrivial interactions | **Present** |
+| Explicit mathematical model | **Present** |
+| Final accepted deeper model | **No** |
 
-This is encouraging, but it is still weaker than a real derivation.
+## What is put in at the start
+
+These are **assumed**, not derived:
+
+- ordinary quantum rules;
+- the chosen mathematical starting structure;
+- some rules for combining ingredients;
+- a label controlling model size.
+
+That is allowed.
+
+The important rule is:
+
+> **Do not call something "derived" if it was put in at the start.**
+
+## What the mathematics seems to allow
+
+These are **possible in principle**, but not yet demonstrated physically:
+
+- meaningful subsystems may be recoverable;
+- entanglement may then arise between those subsystems;
+- a geometry-like description may emerge from large-scale behaviour;
+- quantum behaviour and geometry may coexist.
 
 ## What is still open
 
-The main unresolved questions are:
+```mermaid
+flowchart TB
 
-- What is the correct final Parent?
-- Is the Hamiltonian route the right route?
-- If so, what is the correct Hamiltonian?
-- How are physically meaningful subsystems produced?
-- How does entanglement arise between those subsystems?
-- How does space emerge?
-- How does relativistic spacetime emerge?
-- How does gravity emerge?
-- Why do different kinds of matter see the same effective spacetime?
-- How do quantum physics and gravity coexist and interact correctly?
-- Can one deeper rule structure close all of these gaps at once?
+    A["Correct deeper model"]
+    B["Meaningful physical parts"]
+    C["Entanglement between those parts"]
+    D["Emergent space"]
+    E["Relativistic spacetime"]
+    F["Gravity / General Relativity"]
+    G["Quantum + gravity together"]
+    H["Full closure"]
 
-## A useful distinction
+    A --> B
+    B --> C
+    A --> D
+    D --> E
+    E --> F
+    C --> G
+    F --> G
+    G --> H
 
-The project uses four different categories.
+    classDef open fill:#30363d,stroke:#8b949e,color:#ffffff;
+    class A,B,C,D,E,F,G,H open;
+```
+
+Still unresolved:
+
+- the correct deeper model;
+- whether HAM3 survives serious testing;
+- physically meaningful subsystems;
+- entanglement between those derived subsystems;
+- emergent space;
+- relativistic spacetime;
+- gravity / General Relativity;
+- the correct quantum–gravity overlap;
+- full closure from one deeper rule.
+
+## The key distinction
 
 | Category | Meaning |
 |---|---|
 | **Established** | Already known from successful science |
-| **Must be reconstructed** | Any deeper theory would have to recover this |
-| **Assumed / imported** | Put into the current candidate rather than derived |
-| **Open** | Not yet demonstrated or established |
-
-That distinction is important because it helps stop the project from overstating what it has actually achieved.
+| **Must be rebuilt** | Any deeper theory has to reproduce it |
+| **Present in candidate** | Exists in the current model |
+| **Put in at the start** | Assumed rather than derived |
+| **Possible in principle** | Algebra allows a route, but physics is not demonstrated |
+| **Open** | Not yet established |
 
 ## TL;DR
 
-Quantum physics and relativity are already established.
+- **Quantum physics is known.**
+- **Relativity / gravity are known.**
+- A deeper model must recover both.
+- The project has explicit candidate models.
+- HAM3 already has genuine quantum structure and interactions.
+- Important ingredients are still assumed rather than derived.
+- Meaningful subsystems, emergent space, relativistic spacetime, gravity, and full quantum–gravity closure remain open.
 
-That means the project already knows a great deal about the **target behaviour** any deeper theory must reproduce.
-
-The current project picture is that a deeper Parent may exist, and the Hamiltonian programme is one route being used to search for it. HAM3 is a serious live candidate in that search.
-
-Some important ingredients are already present in the current route, especially genuine quantum structure and nontrivial interactions.
-
-But the biggest tasks remain open: meaningful subsystems, entanglement from those subsystems, emergent space, relativistic spacetime, gravity, and the final closure between the quantum and gravitational branches.
-
-In short:
-
-> the project knows much more about the **destination** than it knows about the **deeper mechanism that gets there**.
+> **We know much more about the behaviour that must come out than we know about the deeper rule that produces it.**
