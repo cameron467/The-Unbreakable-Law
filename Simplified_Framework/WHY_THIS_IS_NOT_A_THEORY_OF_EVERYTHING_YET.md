@@ -33,6 +33,38 @@ This diagram shows the **research method being used now**.
 
 It does **not** show the historical order in which the project developed, and it does **not** claim that nature itself is split into two separate halves.
 
+
+```
+### Diagram-Specific Colour guide
+
+```mermaid
+flowchart LR
+
+    A["Starting direction"]
+    B["Work in progress"]
+    C["Frozen before comparison"]
+    D["Firewall / separation rule"]
+    E["Comparison / outcome"]
+
+    A ~~~ B
+    B ~~~ C
+    C ~~~ D
+    D ~~~ E
+
+    classDef start fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
+    classDef work fill:#30363d,stroke:#8b949e,color:#ffffff;
+    classDef freeze fill:#8957e5,stroke:#8957e5,color:#ffffff;
+    classDef firewall fill:#b62324,stroke:#b62324,color:#ffffff;
+    classDef result fill:#2ea043,stroke:#2ea043,color:#ffffff;
+
+    class A start;
+    class B work;
+    class C freeze;
+    class D firewall;
+    class E result;
+```
+
+
 ```mermaid
 flowchart TB
 
@@ -83,35 +115,7 @@ flowchart TB
     class D,H freeze;
     class I firewall;
     class J,K result;
-```
-### Diagram-Specific Colour guide
 
-```mermaid
-flowchart LR
-
-    A["Starting direction"]
-    B["Work in progress"]
-    C["Frozen before comparison"]
-    D["Firewall / separation rule"]
-    E["Comparison / outcome"]
-
-    A ~~~ B
-    B ~~~ C
-    C ~~~ D
-    D ~~~ E
-
-    classDef start fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
-    classDef work fill:#30363d,stroke:#8b949e,color:#ffffff;
-    classDef freeze fill:#8957e5,stroke:#8957e5,color:#ffffff;
-    classDef firewall fill:#b62324,stroke:#b62324,color:#ffffff;
-    classDef result fill:#2ea043,stroke:#2ea043,color:#ffffff;
-
-    class A start;
-    class B work;
-    class C freeze;
-    class D firewall;
-    class E result;
-```
 
 ### Bottom-up direction
 
