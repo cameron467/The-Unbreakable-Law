@@ -31,6 +31,6 @@ For the current scientific claim boundary, see [`Academic_Framework/Status/WHAT_
 
 **The Unbreakable Law** is the possible deeper rule structure the project is testing for.
 
-Unbreakable simply implies that the unknown can be explained through logic and math, information and perserverance.
+Unbreakable simply implies that the unknown can be known through logic and math, information and perseverance.
 
 "Unbreakable" is not an assertion of validity.
