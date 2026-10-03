@@ -1,4 +1,4 @@
-# Why This Is Not a Theory of Everything (Yet)
+# Why This Is Not a Theory of Everything Yet
 
 - **Layer:** Simplified Framework
 - **Status:** Plain-English project boundary
@@ -38,42 +38,56 @@ The geometry side is not supposed to be redesigned after seeing the microscopic 
 Only after both sides are frozen should they be allowed to collide.
 
 ```mermaid
-flowchart LR
+flowchart TB
 
-    subgraph MICRO["MICRO / QUANTUM SIDE"]
-        A["Microscopic principles"]
-        B["Candidate Parent"]
-        C["Derived operational interface"]
-        D["Frozen response package"]
+    A["MICRO / QUANTUM SIDE"]
+    B["Microscopic principles"]
+    C["Candidate Parent"]
+    D["Derived operational interface"]
+    E["Frozen response package"]
 
-        A --> B
-        B --> C
-        C --> D
-    end
+    F["DUAL-FREEZE FIREWALL"]
+    G["No geometry-target tuning"]
+    H["No Parent-specific decoder tuning"]
+    I["Both sides frozen before comparison"]
 
-    subgraph FIREWALL["DUAL-FREEZE FIREWALL"]
-        F["No geometry-target tuning<br/>No Parent-specific decoder tuning<br/>Freeze and record both sides first"]
-    end
+    J["GEOMETRY SIDE"]
+    K["Known positive and negative controls"]
+    L["Geometry decoder architecture"]
+    M["Frozen decoder"]
 
-    subgraph GEOM["GEOMETRY SIDE"]
-        G["Known positive and negative controls"]
-        H["Geometry decoder architecture"]
-        I["Frozen decoder"]
+    N["Blind collision"]
+    O["Result"]
 
-        G --> H
-        H --> I
-    end
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 
-    D --> F
-    I --> F
+    J --> K
+    K --> L
+    L --> M
 
-    F --> J["Blind collision"]
-    J --> K["Result"]
+    E --> F
+    M --> F
 
-    class A,B,C,G,H build;
-    class D,I freeze;
-    class F firewall;
-    class J,K result;
+    F --> G
+    G --> H
+    H --> I
+    I --> N
+    N --> O
+
+    classDef heading fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
+    classDef build fill:#30363d,stroke:#8b949e,color:#ffffff;
+    classDef freeze fill:#8957e5,stroke:#8957e5,color:#ffffff;
+    classDef firewall fill:#b62324,stroke:#b62324,color:#ffffff;
+    classDef result fill:#2ea043,stroke:#2ea043,color:#ffffff;
+
+    class A,J heading;
+    class B,C,D,K,L build;
+    class E,M freeze;
+    class F,G,H,I firewall;
+    class N,O result;
 ```
 
 The firewall is a **research control**, not a claim about nature.
@@ -89,25 +103,18 @@ It only allows the real testing to begin.
 The Parent response then has to survive a sequence of increasingly demanding gates.
 
 ```mermaid
-flowchart TD
+flowchart TB
 
     A["Frozen Parent response<br/>meets frozen decoder"]
 
-    B["Gate 1<br/>Is the response physically and operationally well-defined?"]
-
-    C["Gate 2<br/>Does it contain genuine geometry<br/>rather than a known impostor?"]
-
-    D["Gate 3<br/>Does the geometry survive scale<br/>and approach a continuum?"]
-
-    E["Gate 4<br/>Does a Lorentzian causal<br/>spacetime emerge?"]
-
-    F["Gate 5<br/>Do the effective dynamics<br/>recover gravity / GR?"]
-
-    G["Gate 6<br/>Do different matter probes<br/>see the same geometry?"]
-
-    H["Gate 7<br/>Can quantum behaviour and geometry<br/>coexist in the same regime?"]
-
-    I["Gate 8<br/>Do the quantum and geometric<br/>descriptions couple correctly?"]
+    B["Gate 1<br/>Physical response"]
+    C["Gate 2<br/>Genuine geometry"]
+    D["Gate 3<br/>Continuum behaviour"]
+    E["Gate 4<br/>Lorentzian causal spacetime"]
+    F["Gate 5<br/>Gravity / GR limit"]
+    G["Gate 6<br/>Universal matter coupling"]
+    H["Gate 7<br/>Quantum + geometry overlap"]
+    I["Gate 8<br/>Correct coupling between them"]
 
     J["Full closure candidate"]
 
@@ -144,7 +151,7 @@ For example:
 
 ## Where the project currently stands
 
-The current project is much closer to the beginning of that chain than the end.
+The project is much closer to the beginning of that chain than the end.
 
 | Stage | Current status |
 |---|---|
@@ -168,7 +175,7 @@ The current project is much closer to the beginning of that chain than the end.
 A successful deeper framework would eventually need to support two independently recognisable branches.
 
 ```mermaid
-flowchart TD
+flowchart TB
 
     A["Possible deeper rule structure<br/>The Unbreakable Law"]
 
@@ -176,9 +183,11 @@ flowchart TD
     C["Operational / geometric branch"]
 
     D["Quantum states<br/>composition<br/>nonclassical correlations"]
+
     E["Physical response<br/>locality<br/>effective geometry"]
 
     F["Derived subsystems<br/>entanglement<br/>no-signalling"]
+
     G["Continuum geometry<br/>causal spacetime<br/>gravity"]
 
     H["Quantum–geometry overlap"]
@@ -224,8 +233,6 @@ Some of the supposedly strong diagnostics failed.
 
 That changed the project.
 
-The current rule is:
-
 > **A test does not become trustworthy because the candidate passes it. The test itself must first survive known positives, known negatives and strong false positives.**
 
 This is why the project maintains:
@@ -248,21 +255,21 @@ There are three main outcomes.
 |---|---|
 | **Incompatible with established physics** | The candidate contradicts strong external evidence in the regime being claimed |
 | **Unresolved mismatch** | Parent and project decoder disagree, but it is not yet clear which side is responsible |
-| **Compatible so far** | The candidate survives the current test, without being declared correct |
+| **Compatible so far** | The candidate survives the current test without being declared correct |
 
 This distinction matters because the project must be willing to discover that **its own measuring instrument was wrong**.
 
 ## What would count as serious progress
 
-A particularly important future milestone would look like this:
+A particularly important future milestone would be:
 
 ```mermaid
-flowchart LR
+flowchart TB
 
     A["Parent frozen"]
     B["Interface derived"]
     C["Response frozen"]
-    D["Decoder frozen"]
+    D["Decoder independently frozen"]
     E["Blind comparison"]
     F["Strong controls passed"]
     G["Independent reproduction"]
@@ -287,7 +294,7 @@ flowchart LR
 
 Even that would not automatically constitute a final theory.
 
-It would mean the project had finally obtained a result worth taking much more seriously.
+It would mean the project had obtained a result worth taking much more seriously.
 
 ## What we do not yet have
 
@@ -306,16 +313,23 @@ The following have **not** been established:
 
 ## How the project should be read
 
-A useful rule for reading the repository is:
+Results move through stages before they should be promoted into stronger claims.
 
 ```mermaid
-flowchart LR
+flowchart TB
 
-    A["Result"] --> B["Observation"]
-    B --> C["Interpretation"]
-    C --> D["Hostile testing"]
-    D --> E["Independent reproduction"]
-    E --> F["Possible promotion"]
+    A["Result"]
+    B["Observation"]
+    C["Interpretation"]
+    D["Hostile testing"]
+    E["Independent reproduction"]
+    F["Possible promotion"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 
     classDef observed fill:#1f6feb,stroke:#1f6feb,color:#ffffff;
     classDef uncertain fill:#30363d,stroke:#8b949e,color:#ffffff;
